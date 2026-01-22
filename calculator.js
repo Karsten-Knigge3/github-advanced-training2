@@ -12,7 +12,6 @@ function subtract(a, b) {
    throw new Error ('Beide Argumente müssen Zahlen sein');
    }
    return a - b;
-   }
 }
 
 // TODO: Add multiply and divide functions
