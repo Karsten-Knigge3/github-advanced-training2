@@ -8,6 +8,10 @@ if (typeof a !== 'number' || typeof b !== 'number') {
 }
 
 function subtract(a, b) {
+   if (typeof a !== 'number' || typeof b !== 'number' ){
+   throw new Error ('Beide Argumente müssen Zahlen sein');
+   return a - b;
+   }
     return a - b;
 }
 
