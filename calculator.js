@@ -10,3 +10,5 @@ function subtract(a, b) {
 // TODO: Add multiply and divide functions
 
 module.exports = { add, subtract };
+
+// Neue Funktion erforderlich
