@@ -28,6 +28,6 @@ function divide(a, b) {
     }
     return a / b;
 }
-module.exports = { add, subtract };
+module.exports = { add, subtract, multiply, divide };
 
 // Neue Funktion erforderlich
