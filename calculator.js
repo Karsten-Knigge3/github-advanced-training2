@@ -5,7 +5,6 @@ if (typeof a !== 'number' || typeof b !== 'number') {
     }
     return a + b;
 }
-}
 
 function subtract(a, b) {
    if (typeof a !== 'number' || typeof b !== 'number' ){
